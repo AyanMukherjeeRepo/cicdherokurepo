@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   const { host } = req.headers;
-  res.status(200).json({ message: 'Welcome to the Factorial calculator 🎊', docs: `http://${host}/docs` });
+  res.status(200).json({ message: 'Welcome to the Factorial calculator again🎊', docs: `http://${host}/docs` });
 });
 
 app.get('/docs', (req, res) => {
